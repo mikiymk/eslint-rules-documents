@@ -76,3 +76,8 @@ new Array(5).map(function() {
 ### checkForEach
 
 `true` に設定されているとき、 `Array.prototype.forEach` のコールバック関数で値を返すものをチェックします。
+
+## configs
+
+以下の設定で使用されています。
+
