@@ -213,113 +213,112 @@
 
 ## Layout & Formatting 
 
-These rules care about how the code looks rather than how it executes:
-array-bracket-newline
-array-bracket-spacing
-array-element-newline
-arrow-parens
-arrow-spacing
-block-spacing
-brace-style
-comma-dangle
-comma-spacing
-comma-style
-computed-property-spacing
-dot-location
-eol-last
-func-call-spacing
-function-call-argument-newline
-function-paren-newline
-generator-star-spacing
-implicit-arrow-linebreak
-indent
-jsx-quotes
-key-spacing
-keyword-spacing
-line-comment-position
-linebreak-style
-lines-around-comment
-lines-between-class-members
-max-len
-max-statements-per-line
-multiline-ternary
-new-parens
-newline-per-chained-call
-no-extra-parens
-no-mixed-spaces-and-tabs
-no-multi-spaces
-no-multiple-empty-lines
-no-tabs
-no-trailing-spaces
-no-whitespace-before-property
-nonblock-statement-body-position
-object-curly-newline
-object-curly-spacing
-object-property-newline
-operator-linebreak
-padded-blocks
-padding-line-between-statements
-quotes
-rest-spread-spacing
-semi
-semi-spacing
-semi-style
-space-before-blocks
-space-before-function-paren
-space-in-parens
-space-infix-ops
-space-unary-ops
-switch-colon-spacing
-template-curly-spacing
-template-tag-spacing
-unicode-bom
-wrap-iife
-wrap-regex
-yield-star-spacing
+[array-bracket-newline](array-bracket-newline.md)
+[array-bracket-spacing](array-bracket-spacing.md)
+[array-element-newline](array-element-newline.md)
+[arrow-parens](arrow-parens.md)
+[arrow-spacing](arrow-spacing.md)
+[block-spacing](block-spacing.md)
+[brace-style](brace-style.md)
+[comma-dangle](comma-dangle.md)
+[comma-spacing](comma-spacing.md)
+[comma-style](comma-style.md)
+[computed-property-spacing](computed-property-spacing.md)
+[dot-location](dot-location.md)
+[eol-last](eol-last.md)
+[func-call-spacing](func-call-spacing.md)
+[function-call-argument-newline](function-call-argument-newline.md)
+[function-paren-newline](function-paren-newline.md)
+[generator-star-spacing](generator-star-spacing.md)
+[implicit-arrow-linebreak](implicit-arrow-linebreak.md)
+[indent](indent.md)
+[jsx-quotes](jsx-quotes.md)
+[key-spacing](key-spacing.md)
+[keyword-spacing](keyword-spacing.md)
+[line-comment-position](line-comment-position.md)
+[linebreak-style](linebreak-style.md)
+[lines-around-comment](lines-around-comment.md)
+[lines-between-class-members](lines-between-class-members.md)
+[max-len](max-len.md)
+[max-statements-per-line](max-statements-per-line.md)
+[multiline-ternary](multiline-ternary.md)
+[new-parens](new-parens.md)
+[newline-per-chained-call](newline-per-chained-call.md)
+[no-extra-parens](no-extra-parens.md)
+[no-mixed-spaces-and-tabs](no-mixed-spaces-and-tabs.md)
+[no-multi-spaces](no-multi-spaces.md)
+[no-multiple-empty-lines](no-multiple-empty-lines.md)
+[no-tabs](no-tabs.md)
+[no-trailing-spaces](no-trailing-spaces.md)
+[no-whitespace-before-property](no-whitespace-before-property.md)
+[nonblock-statement-body-position](nonblock-statement-body-position.md)
+[object-curly-newline](object-curly-newline.md)
+[object-curly-spacing](object-curly-spacing.md)
+[object-property-newline](object-property-newline.md)
+[operator-linebreak](operator-linebreak.md)
+[padded-blocks](padded-blocks.md)
+[padding-line-between-statements](padding-line-between-statements.md)
+[quotes](quotes.md)
+[rest-spread-spacing](rest-spread-spacing.md)
+[semi](semi.md)
+[semi-spacing](semi-spacing.md)
+[semi-style](semi-style.md)
+[space-before-blocks](space-before-blocks.md)
+[space-before-function-paren](space-before-function-paren.md)
+[space-in-parens](space-in-parens.md)
+[space-infix-ops](space-infix-ops.md)
+[space-unary-ops](space-unary-ops.md)
+[switch-colon-spacing](switch-colon-spacing.md)
+[template-curly-spacing](template-curly-spacing.md)
+[template-tag-spacing](template-tag-spacing.md)
+[unicode-bom](unicode-bom.md)
+[wrap-iife](wrap-iife.md)
+[wrap-regex](wrap-regex.md)
+[yield-star-spacing](yield-star-spacing.md)
 
 ## Deprecated
 
-callback-return deprecated
-global-require deprecated
-handle-callback-err deprecated
-id-blacklist deprecated
-indent-legacy deprecated
-lines-around-directive deprecated
-newline-after-var deprecated
-newline-before-return deprecated
-no-buffer-constructor deprecated
-no-catch-shadow deprecated
-no-mixed-requires deprecated
-no-native-reassign deprecated
-no-negated-in-lhs deprecated
-no-new-require deprecated
-no-path-concat deprecated
-no-process-env deprecated
-no-process-exit deprecated
-no-restricted-modules deprecated
-no-spaced-func deprecated
-no-sync deprecated
-prefer-reflect deprecated
-require-jsdoc deprecated
-valid-jsdoc deprecated
+[callback-return](callback-return.md)
+[global-require](global-require.md)
+[handle-callback-err](handle-callback-err.md)
+[id-blacklist](id-blacklist.md)
+[indent-legacy](indent-legacy.md)
+[lines-around-directive](lines-around-directive.md)
+[newline-after-var](newline-after-var.md)
+[newline-before-return](newline-before-return.md)
+[no-buffer-constructor](no-buffer-constructor.md)
+[no-catch-shadow](no-catch-shadow.md)
+[no-mixed-requires](no-mixed-requires.md)
+[no-native-reassign](no-native-reassign.md)
+[no-negated-in-lhs](no-negated-in-lhs.md)
+[no-new-require](no-new-require.md)
+[no-path-concat](no-path-concat.md)
+[no-process-env](no-process-env.md)
+[no-process-exit](no-process-exit.md)
+[no-restricted-modules](no-restricted-modules.md)
+[no-spaced-func](no-spaced-func.md)
+[no-sync](no-sync.md)
+[prefer-reflect](prefer-reflect.md)
+[require-jsdoc](require-jsdoc.md)
+[valid-jsdoc](valid-jsdoc.md)
 
 ## Removed
 
-generator-star removed
-global-strict removed
-no-arrow-condition removed
-no-comma-dangle removed
-no-empty-class removed
-no-empty-label removed
-no-extra-strict removed
-no-reserved-keys removed
-no-space-before-semi removed
-no-wrap-func removed
-space-after-function-name removed
-space-after-keywords removed
-space-before-function-parentheses removed
-space-before-keywords removed
-space-in-brackets removed
-space-return-throw-case removed
-space-unary-word-ops removed
-spaced-line-comment removed
+[generator-star](generator-star.md)
+[global-strict](global-strict.md)
+[no-arrow-condition](no-arrow-condition.md)
+[no-comma-dangle](no-comma-dangle.md)
+[no-empty-class](no-empty-class.md)
+[no-empty-label](no-empty-label.md)
+[no-extra-strict](no-extra-strict.md)
+[no-reserved-keys](no-reserved-keys.md)
+[no-space-before-semi](no-space-before-semi.md)
+[no-wrap-func](no-wrap-func.md)
+[space-after-function-name](space-after-function-name.md)
+[space-after-keywords](space-after-keywords.md)
+[space-before-function-parentheses](space-before-function-parentheses.md)
+[space-before-keywords](space-before-keywords.md)
+[space-in-brackets](space-in-brackets.md)
+[space-return-throw-case](space-return-throw-case.md)
+[space-unary-word-ops](space-unary-word-ops.md)
+[spaced-line-comment](spaced-line-comment.md)
