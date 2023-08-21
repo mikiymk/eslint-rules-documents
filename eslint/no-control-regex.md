@@ -14,4 +14,4 @@
 
 ## rules
 
-- https://eslint.org/docs/latest/rules/no-control-regex)https://eslint.org/docs/latest/rules/no-control-regex
+- https://eslint.org/docs/latest/rules/no-control-regex
