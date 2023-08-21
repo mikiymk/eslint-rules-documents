@@ -10,6 +10,8 @@
 
 以下の設定で使用されています
 
+- `"eslint:recommended": "error"`
+
 ## rules
 
 - https://eslint.org/docs/latest/rules/no-control-regex)https://eslint.org/docs/latest/rules/no-control-regex
