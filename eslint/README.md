@@ -2,6 +2,9 @@
 
 ## Possible Problems 
 
+| ルール | 実装 | 修正 | コンフィグ |
+| --- | --- | --- | --- |
+
 [array-callback-return](array-callback-return.md)
 [constructor-super](constructor-super.md)
 [for-direction](for-direction.md)
@@ -322,3 +325,16 @@
 [space-return-throw-case](space-return-throw-case.md)
 [space-unary-word-ops](space-unary-word-ops.md)
 [spaced-line-comment](spaced-line-comment.md)
+
+# 変更履歴
+
+## v0
+## v1
+## v2
+## v3
+## v4
+## v5
+## v6
+## v7
+## v8
+## v9
