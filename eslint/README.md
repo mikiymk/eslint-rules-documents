@@ -1,15 +1,19 @@
-# eslint rules
+# eslint
+
+- 🗃️ - オプションがある
+- ⚙️ - 自動で修正ができる
+- 💡 - 修正の提案ができる
+- 📝 - `recommended` のコンフィグで有効
 
 ## Possible Problems 
 
-| ルール | 実装 | 修正 | コンフィグ |
-| --- | --- | --- | --- |
-
-[array-callback-return](array-callback-return.md)
-[constructor-super](constructor-super.md)
-[for-direction](for-direction.md)
-[getter-return](getter-return.md)
-[no-async-promise-executor](no-async-promise-executor.md)
+| ルール | 実装 | 🗃️ | ⚙️ | 📝 |
+| --- | --- | :---: | :---: | :---: |
+| [array-callback-return](array-callback-return.md) | 2.0.0 | 🗃️ | 💡 | - |
+| [constructor-super](constructor-super.md) | 0.24.0 | - | - | 📝 |
+[for-direction](for-direction.md) | 4.0.0 | - | - | 📝 |
+[getter-return](getter-return.md) | 4.2.0 | 🗃️ | - | 📝 |
+[no-async-promise-executor](no-async-promise-executor.md)| 5.3.0 | - | - | 📝 |
 [no-await-in-loop](no-await-in-loop.md)
 [no-class-assign](no-class-assign.md)
 [no-compare-neg-zero](no-compare-neg-zero.md)
@@ -66,6 +70,8 @@
 
 ## Suggestions 
 
+| ルール | オプション | 実装 | 修正 | コンフィグ |
+| --- | --- | --- | --- | --- |
 [accessor-pairs](accessor-pairs.md)
 [arrow-body-style](arrow-body-style.md)
 [block-scoped-var](block-scoped-var.md)
@@ -216,6 +222,8 @@
 
 ## Layout & Formatting 
 
+| ルール | オプション | 実装 | 修正 | コンフィグ |
+| --- | --- | --- | --- | --- 
 [array-bracket-newline](array-bracket-newline.md)
 [array-bracket-spacing](array-bracket-spacing.md)
 [array-element-newline](array-element-newline.md)
@@ -278,63 +286,3 @@
 [wrap-iife](wrap-iife.md)
 [wrap-regex](wrap-regex.md)
 [yield-star-spacing](yield-star-spacing.md)
-
-## Deprecated
-
-[callback-return](callback-return.md)
-[global-require](global-require.md)
-[handle-callback-err](handle-callback-err.md)
-[id-blacklist](id-blacklist.md)
-[indent-legacy](indent-legacy.md)
-[lines-around-directive](lines-around-directive.md)
-[newline-after-var](newline-after-var.md)
-[newline-before-return](newline-before-return.md)
-[no-buffer-constructor](no-buffer-constructor.md)
-[no-catch-shadow](no-catch-shadow.md)
-[no-mixed-requires](no-mixed-requires.md)
-[no-native-reassign](no-native-reassign.md)
-[no-negated-in-lhs](no-negated-in-lhs.md)
-[no-new-require](no-new-require.md)
-[no-path-concat](no-path-concat.md)
-[no-process-env](no-process-env.md)
-[no-process-exit](no-process-exit.md)
-[no-restricted-modules](no-restricted-modules.md)
-[no-spaced-func](no-spaced-func.md)
-[no-sync](no-sync.md)
-[prefer-reflect](prefer-reflect.md)
-[require-jsdoc](require-jsdoc.md)
-[valid-jsdoc](valid-jsdoc.md)
-
-## Removed
-
-[generator-star](generator-star.md)
-[global-strict](global-strict.md)
-[no-arrow-condition](no-arrow-condition.md)
-[no-comma-dangle](no-comma-dangle.md)
-[no-empty-class](no-empty-class.md)
-[no-empty-label](no-empty-label.md)
-[no-extra-strict](no-extra-strict.md)
-[no-reserved-keys](no-reserved-keys.md)
-[no-space-before-semi](no-space-before-semi.md)
-[no-wrap-func](no-wrap-func.md)
-[space-after-function-name](space-after-function-name.md)
-[space-after-keywords](space-after-keywords.md)
-[space-before-function-parentheses](space-before-function-parentheses.md)
-[space-before-keywords](space-before-keywords.md)
-[space-in-brackets](space-in-brackets.md)
-[space-return-throw-case](space-return-throw-case.md)
-[space-unary-word-ops](space-unary-word-ops.md)
-[spaced-line-comment](spaced-line-comment.md)
-
-# 変更履歴
-
-## v0
-## v1
-## v2
-## v3
-## v4
-## v5
-## v6
-## v7
-## v8
-## v9
