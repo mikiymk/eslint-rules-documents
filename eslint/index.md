@@ -14,13 +14,13 @@
 [for-direction](for-direction.md) | 4.0.0 | - | - | 📝 |
 [getter-return](getter-return.md) | 4.2.0 | 🗃️ | - | 📝 |
 [no-async-promise-executor](no-async-promise-executor.md)| 5.3.0 | - | - | 📝 |
-[no-await-in-loop](no-await-in-loop.md)
-[no-class-assign](no-class-assign.md)
-[no-compare-neg-zero](no-compare-neg-zero.md)
-[no-cond-assign](no-cond-assign.md)
-[no-const-assign](no-const-assign.md)
-[no-constant-binary-expression](no-constant-binary-expression.md)
-[no-constant-condition](no-constant-condition.md)
+[no-await-in-loop](no-await-in-loop.md)|3.12.0|-|-|-|
+[no-class-assign](no-class-assign.md)|1.0.0|-|-|📝|
+[no-compare-neg-zero](no-compare-neg-zero.md)|3.17.0|-|-|📝|
+[no-cond-assign](no-cond-assign.md)|0.0.9|🗃️|-|📝|
+[no-const-assign](no-const-assign.md)|1.0.0|-|-|📝|
+[no-constant-binary-expression](no-constant-binary-expression.md)|8.14.0|-|-|📝|
+[no-constant-condition](no-constant-condition.md)|0.4.1|🗃️|-|📝|
 [no-constructor-return](no-constructor-return.md)
 [no-control-regex](no-control-regex.md)
 [no-debugger](no-debugger.md)
