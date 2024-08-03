@@ -37,7 +37,7 @@
 | [no-func-assign](no-func-assign.md)                               | 0.0.9  |  -  |  -  | 📝  |
 | [no-import-assign](no-import-assign.md)                           | 6.4.0  |  -  |  -  | 📝  |
 
-[no-inner-declarations](no-inner-declarations.md)
+[no-inner-declarations](no-inner-declarations.md)|0.6.0|🗃️|-|-|
 [no-invalid-regexp](no-invalid-regexp.md)
 [no-irregular-whitespace](no-irregular-whitespace.md)
 [no-loss-of-precision](no-loss-of-precision.md)
