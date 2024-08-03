@@ -5,37 +5,38 @@
 - 💡 - 修正の提案ができる
 - 📝 - `recommended` のコンフィグで有効
 
-## Possible Problems 
+## Possible Problems
 
-| ルール | 実装 | 🗃️ | ⚙️ | 📝 |
-| --- | --- | :---: | :---: | :---: |
-| [array-callback-return](array-callback-return.md) | 2.0.0 | 🗃️ | 💡 | - |
-| [constructor-super](constructor-super.md) | 0.24.0 | - | - | 📝 |
-[for-direction](for-direction.md) | 4.0.0 | - | - | 📝 |
-[getter-return](getter-return.md) | 4.2.0 | 🗃️ | - | 📝 |
-[no-async-promise-executor](no-async-promise-executor.md)| 5.3.0 | - | - | 📝 |
-[no-await-in-loop](no-await-in-loop.md)|3.12.0|-|-|-|
-[no-class-assign](no-class-assign.md)|1.0.0|-|-|📝|
-[no-compare-neg-zero](no-compare-neg-zero.md)|3.17.0|-|-|📝|
-[no-cond-assign](no-cond-assign.md)|0.0.9|🗃️|-|📝|
-[no-const-assign](no-const-assign.md)|1.0.0|-|-|📝|
-[no-constant-binary-expression](no-constant-binary-expression.md)|8.14.0|-|-|📝|
-[no-constant-condition](no-constant-condition.md)|0.4.1|🗃️|-|📝|
-[no-constructor-return](no-constructor-return.md) | 6.7.0 | - | - | - |
-[no-control-regex](no-control-regex.md) | 0.1.0 | - | - | 📝 |
-[no-debugger](no-debugger.md) | 0.0.2 | - | - | 📝 |
-[no-dupe-args](no-dupe-args.md) | 0.16.0 | - | - | 📝 |
-[no-dupe-class-members](no-dupe-class-members.md) | 1.2.0 | - | - | 📝 |
-[no-dupe-else-if](no-dupe-else-if.md) | 6.7.0 | - | - | 📝 |
-[no-dupe-keys](no-dupe-keys.md) | 0.0.9 | - | - | 📝 |
-[no-duplicate-case](no-duplicate-case.md) | 0.17.0 | - | - | 📝 |
-[no-duplicate-imports](no-duplicate-imports.md) | 2.5.0 | 🗃️ | - | - |
-[no-empty-character-class](no-empty-character-class.md) | 0.22.0 | - | - | 📝 |
-[no-empty-pattern](no-empty-pattern.md) | 1.7.0 | 🗃️ | - | 📝 |
-[no-ex-assign](no-ex-assign.md) | 0.0.9 | - | - | 📝 |
-[no-fallthrough](no-fallthrough.md) | 0.0.7 | 🗃️ | - | 📝 |
-[no-func-assign](no-func-assign.md) | 0.0.9 | - | - | 📝 |
-[no-import-assign](no-import-assign.md) | 6.4.0 | - | - | 📝 |
+| ルール                                                            | 実装   | 🗃️  | ⚙️  | 📝  |
+| ----------------------------------------------------------------- | ------ | :-: | :-: | :-: |
+| [array-callback-return](array-callback-return.md)                 | 2.0.0  | 🗃️  | 💡  |  -  |
+| [constructor-super](constructor-super.md)                         | 0.24.0 |  -  |  -  | 📝  |
+| [for-direction](for-direction.md)                                 | 4.0.0  |  -  |  -  | 📝  |
+| [getter-return](getter-return.md)                                 | 4.2.0  | 🗃️  |  -  | 📝  |
+| [no-async-promise-executor](no-async-promise-executor.md)         | 5.3.0  |  -  |  -  | 📝  |
+| [no-await-in-loop](no-await-in-loop.md)                           | 3.12.0 |  -  |  -  |  -  |
+| [no-class-assign](no-class-assign.md)                             | 1.0.0  |  -  |  -  | 📝  |
+| [no-compare-neg-zero](no-compare-neg-zero.md)                     | 3.17.0 |  -  |  -  | 📝  |
+| [no-cond-assign](no-cond-assign.md)                               | 0.0.9  | 🗃️  |  -  | 📝  |
+| [no-const-assign](no-const-assign.md)                             | 1.0.0  |  -  |  -  | 📝  |
+| [no-constant-binary-expression](no-constant-binary-expression.md) | 8.14.0 |  -  |  -  | 📝  |
+| [no-constant-condition](no-constant-condition.md)                 | 0.4.1  | 🗃️  |  -  | 📝  |
+| [no-constructor-return](no-constructor-return.md)                 | 6.7.0  |  -  |  -  |  -  |
+| [no-control-regex](no-control-regex.md)                           | 0.1.0  |  -  |  -  | 📝  |
+| [no-debugger](no-debugger.md)                                     | 0.0.2  |  -  |  -  | 📝  |
+| [no-dupe-args](no-dupe-args.md)                                   | 0.16.0 |  -  |  -  | 📝  |
+| [no-dupe-class-members](no-dupe-class-members.md)                 | 1.2.0  |  -  |  -  | 📝  |
+| [no-dupe-else-if](no-dupe-else-if.md)                             | 6.7.0  |  -  |  -  | 📝  |
+| [no-dupe-keys](no-dupe-keys.md)                                   | 0.0.9  |  -  |  -  | 📝  |
+| [no-duplicate-case](no-duplicate-case.md)                         | 0.17.0 |  -  |  -  | 📝  |
+| [no-duplicate-imports](no-duplicate-imports.md)                   | 2.5.0  | 🗃️  |  -  |  -  |
+| [no-empty-character-class](no-empty-character-class.md)           | 0.22.0 |  -  |  -  | 📝  |
+| [no-empty-pattern](no-empty-pattern.md)                           | 1.7.0  | 🗃️  |  -  | 📝  |
+| [no-ex-assign](no-ex-assign.md)                                   | 0.0.9  |  -  |  -  | 📝  |
+| [no-fallthrough](no-fallthrough.md)                               | 0.0.7  | 🗃️  |  -  | 📝  |
+| [no-func-assign](no-func-assign.md)                               | 0.0.9  |  -  |  -  | 📝  |
+| [no-import-assign](no-import-assign.md)                           | 6.4.0  |  -  |  -  | 📝  |
+
 [no-inner-declarations](no-inner-declarations.md)
 [no-invalid-regexp](no-invalid-regexp.md)
 [no-irregular-whitespace](no-irregular-whitespace.md)
@@ -68,10 +69,11 @@
 [use-isnan](use-isnan.md)
 [valid-typeof](valid-typeof.md)
 
-## Suggestions 
+## Suggestions
 
-| ルール | オプション | 実装 | 修正 | コンフィグ |
-| --- | --- | --- | --- | --- |
+| ルール | 実装 | 🗃️  | ⚙️  | 📝  |
+| ------ | ---- | :-: | :-: | :-: |
+
 [accessor-pairs](accessor-pairs.md)
 [arrow-body-style](arrow-body-style.md)
 [block-scoped-var](block-scoped-var.md)
@@ -220,10 +222,11 @@
 [vars-on-top](vars-on-top.md)
 [yoda](yoda.md)
 
-## Layout & Formatting 
+## Layout & Formatting
 
-| ルール | オプション | 実装 | 修正 | コンフィグ |
-| --- | --- | --- | --- | --- 
+| ルール | 実装 | 🗃️  | ⚙️  | 📝  |
+| ------ | ---- | :-: | :-: | :-: |
+
 [array-bracket-newline](array-bracket-newline.md)
 [array-bracket-spacing](array-bracket-spacing.md)
 [array-element-newline](array-element-newline.md)

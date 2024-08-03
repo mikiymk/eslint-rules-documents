@@ -50,11 +50,11 @@ const OptionDefault = {
 `true` に設定されているとき、値のない `return` 文による暗黙的な `undefined` を返すことを許可します。
 
 #### 正しい例
-  
+
 ```js
 /* eslint array-callback-return: ["error", { allowImplicit: true }] */
 
-new Array(5).map(function() {
+new Array(5).map(function () {
   return;
 });
 ```
@@ -64,7 +64,7 @@ new Array(5).map(function() {
 ```js
 /* eslint array-callback-return: ["error", { allowImplicit: true }] */
 
-new Array(5).map(function() {
+new Array(5).map(function () {
   // no return starement
 });
 ```
@@ -76,4 +76,3 @@ new Array(5).map(function() {
 ## configs
 
 以下の設定で使用されています。
-

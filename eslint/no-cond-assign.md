@@ -6,15 +6,12 @@
 `if` `for` `while` `do-while` の条件部で使用した場合は比較演算子
 `==` `===` のミスタイプの可能性があります。
 
-
 ## Options
 
 1つの文字列オプションを受け入れます。
 
 ```ts
-type Options =
-  | "except-parens"
-  | "always";
+type Options = "except-parens" | "always";
 
 const Defaults = "expect-parens";
 ```
