@@ -21,21 +21,21 @@
 [no-const-assign](no-const-assign.md)|1.0.0|-|-|📝|
 [no-constant-binary-expression](no-constant-binary-expression.md)|8.14.0|-|-|📝|
 [no-constant-condition](no-constant-condition.md)|0.4.1|🗃️|-|📝|
-[no-constructor-return](no-constructor-return.md)
-[no-control-regex](no-control-regex.md)
-[no-debugger](no-debugger.md)
-[no-dupe-args](no-dupe-args.md)
-[no-dupe-class-members](no-dupe-class-members.md)
-[no-dupe-else-if](no-dupe-else-if.md)
-[no-dupe-keys](no-dupe-keys.md)
-[no-duplicate-case](no-duplicate-case.md)
-[no-duplicate-imports](no-duplicate-imports.md)
-[no-empty-character-class](no-empty-character-class.md)
-[no-empty-pattern](no-empty-pattern.md)
-[no-ex-assign](no-ex-assign.md)
-[no-fallthrough](no-fallthrough.md)
-[no-func-assign](no-func-assign.md)
-[no-import-assign](no-import-assign.md)
+[no-constructor-return](no-constructor-return.md) | 6.7.0 | - | - | - |
+[no-control-regex](no-control-regex.md) | 0.1.0 | - | - | 📝 |
+[no-debugger](no-debugger.md) | 0.0.2 | - | - | 📝 |
+[no-dupe-args](no-dupe-args.md) | 0.16.0 | - | - | 📝 |
+[no-dupe-class-members](no-dupe-class-members.md) | 1.2.0 | - | - | 📝 |
+[no-dupe-else-if](no-dupe-else-if.md) | 6.7.0 | - | - | 📝 |
+[no-dupe-keys](no-dupe-keys.md) | 0.0.9 | - | - | 📝 |
+[no-duplicate-case](no-duplicate-case.md) | 0.17.0 | - | - | 📝 |
+[no-duplicate-imports](no-duplicate-imports.md) | 2.5.0 | 🗃️ | - | - |
+[no-empty-character-class](no-empty-character-class.md) | 0.22.0 | - | - | 📝 |
+[no-empty-pattern](no-empty-pattern.md) | 1.7.0 | 🗃️ | - | 📝 |
+[no-ex-assign](no-ex-assign.md) | 0.0.9 | - | - | 📝 |
+[no-fallthrough](no-fallthrough.md) | 0.0.7 | 🗃️ | - | 📝 |
+[no-func-assign](no-func-assign.md) | 0.0.9 | - | - | 📝 |
+[no-import-assign](no-import-assign.md) | 6.4.0 | - | - | 📝 |
 [no-inner-declarations](no-inner-declarations.md)
 [no-invalid-regexp](no-invalid-regexp.md)
 [no-irregular-whitespace](no-irregular-whitespace.md)
