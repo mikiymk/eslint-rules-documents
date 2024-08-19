@@ -53,34 +53,35 @@
 [no-this-before-super](no-this-before-super.md)|0.24.0|-|-|📝|
 [no-undef](no-undef.md)|0.0.9|🗃️|-|📝|
 [no-unexpected-multiline](no-unexpected-multiline.md)|0.24.0|-|-|📝|
-[no-unmodified-loop-condition](no-unmodified-loop-condition.md)|0.0.0|🗃️|⚙️💡|📝|
-[no-unreachable](no-unreachable.md)|0.0.0|🗃️|⚙️💡|📝|
-[no-unreachable-loop](no-unreachable-loop.md)|0.0.0|🗃️|⚙️💡|📝|
-[no-unsafe-finally](no-unsafe-finally.md)|0.0.0|🗃️|⚙️💡|📝|
-[no-unsafe-negation](no-unsafe-negation.md)|0.0.0|🗃️|⚙️💡|📝|
-[no-unsafe-optional-chaining](no-unsafe-optional-chaining.md)|0.0.0|🗃️|⚙️💡|📝|
-[no-unused-private-class-members](no-unused-private-class-members.md)|0.0.0|🗃️|⚙️💡|📝|
-[no-unused-vars](no-unused-vars.md)|0.0.0|🗃️|⚙️💡|📝|
-[no-use-before-define](no-use-before-define.md)|0.0.0|🗃️|⚙️💡|📝|
-[no-useless-backreference](no-useless-backreference.md)|0.0.0|🗃️|⚙️💡|📝|
-[require-atomic-updates](require-atomic-updates.md)|0.0.0|🗃️|⚙️💡|📝|
-[use-isnan](use-isnan.md)|0.0.0|🗃️|⚙️💡|📝|
-[valid-typeof](valid-typeof.md)|0.0.0|🗃️|⚙️💡|📝|
+[no-unmodified-loop-condition](no-unmodified-loop-condition.md)|2.0.0|-|-|-|
+[no-unreachable](no-unreachable.md)|0.0.6|-|-|📝|
+[no-unreachable-loop](no-unreachable-loop.md)|7.3.0|🗃️|-|-|
+[no-unsafe-finally](no-unsafe-finally.md)|2.9.0|-|-|📝|
+[no-unsafe-negation](no-unsafe-negation.md)|3.3.0|🗃️|💡|📝|
+[no-unsafe-optional-chaining](no-unsafe-optional-chaining.md)|7.15.0|🗃️|-|📝|
+[no-unused-private-class-members](no-unused-private-class-members.md)|8.1.0|-|-|📝|
+[no-unused-vars](no-unused-vars.md)|0.0.9|🗃️|-|📝|
+[no-use-before-define](no-use-before-define.md)|0.0.9|🗃️|-|-|
+[no-useless-assignment](no-useless-assignment.md)|9.0.0|-|-|-|
+[no-useless-backreference](no-useless-backreference.md)|7.0.0|-|-|📝|
+[require-atomic-updates](require-atomic-updates.md)|5.3.0|🗃️|-|-|
+[use-isnan](use-isnan.md)|0.0.6|🗃️|💡|📝|
+[valid-typeof](valid-typeof.md)|0.5.0|🗃️|💡|📝|
 
 ## Suggestions
 
 | ルール | 実装 | 🗃️  | ⚙️  | 📝  |
 | ------ | ---- | :-: | :-: | :-: |
-[accessor-pairs](accessor-pairs.md)|0.0.0|🗃️|⚙️💡|📝|
-[arrow-body-style](arrow-body-style.md)|0.0.0|🗃️|⚙️💡|📝|
-[block-scoped-var](block-scoped-var.md)|0.0.0|🗃️|⚙️💡|📝|
-[camelcase](camelcase.md)|0.0.0|🗃️|⚙️💡|📝|
-[capitalized-comments](capitalized-comments.md)|0.0.0|🗃️|⚙️💡|📝|
-[class-methods-use-this](class-methods-use-this.md)|0.0.0|🗃️|⚙️💡|📝|
-[complexity](complexity.md)|0.0.0|🗃️|⚙️💡|📝|
-[consistent-return](consistent-return.md)|0.0.0|🗃️|⚙️💡|📝|
-[consistent-this](consistent-this.md)|0.0.0|🗃️|⚙️💡|📝|
-[curly](curly.md)|0.0.0|🗃️|⚙️💡|📝|
+[accessor-pairs](accessor-pairs.md)|0.22.0|🗃️|-|-|
+[arrow-body-style](arrow-body-style.md)|1.8.0|🗃️|⚙️|-|
+[block-scoped-var](block-scoped-var.md)|0.1.0|-|-|-|
+[camelcase](camelcase.md)|0.0.2|🗃️|-|-|
+[capitalized-comments](capitalized-comments.md)|3.11.0|🗃️|⚙️|-|
+[class-methods-use-this](class-methods-use-this.md)|3.4.0|🗃️|-|-|
+[complexity](complexity.md)|0.0.9|🗃️|-|-|
+[consistent-return](consistent-return.md)|0.4.0|🗃️|-|-|
+[consistent-this](consistent-this.md)|0.0.9|🗃️|-|-|
+[curly](curly.md)|0.0.2|🗃️|⚙️|-|
 [default-case](default-case.md)|0.0.0|🗃️|⚙️💡|📝|
 [default-case-last](default-case-last.md)|0.0.0|🗃️|⚙️💡|📝|
 [default-param-last](default-param-last.md)|0.0.0|🗃️|⚙️💡|📝|
