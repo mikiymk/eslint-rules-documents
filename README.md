@@ -27,3 +27,10 @@ eslintのルールを日本語でまとめたい
 | [Biome](./biome) | 1.8.3  |   | [📖](https://www.npmjs.com/package/@biomejs/biome/v/1.8.3) | [🐙](https://github.com/biomejs/biome/tree/cli/v1.8.3) |    [🔗](https://biomejs.dev)                                |   ✅   |
 | [oxlint](./oxc) | 0.7.2  |   | [📖](https://www.npmjs.com/package/oxlint/v/0.7.2) | [🐙](https://github.com/oxc-project/oxc/tree/oxlint_v0.7.2?tab=readme-ov-file) |    [🔗](https://oxc.rs)                                |   ✅   |
 | [XO](./xo) | 0.59.3   |  | [📖](https://www.npmjs.com/package/xo/v/0.59.3) | [🐙](https://github.com/xojs/xo/tree/v0.59.3) |                                   |   ✅   |
+| JSHint |
+| JSLint |
+| TSHint |
+| JSCS |
+| SonarJS |
+| Flow |
+| Standard |
