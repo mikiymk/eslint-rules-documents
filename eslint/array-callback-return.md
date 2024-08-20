@@ -1,78 +1,130 @@
 # array-callback-return
 
-以下の関数の引数に渡すコールバック関数は値を返さないものをチェックします。
+`Array`オブジェクトの関数の引数に渡すコールバック関数に必ず値を返すことを要求します。
 
-- Array.from
-- Array.prototype.every
-- Array.prototype.filter
-- Array.prototype.find
-- Array.prototype.findIndex
-- Array.prototype.findLast
-- Array.prototype.findLastIndex
-- Array.prototype.flatMap
-- Array.prototype.map
-- Array.prototype.reduce
-- Array.prototype.reduceRight
-- Array.prototype.some
-- Array.prototype.sort
-- Array.prototype.toSorted
+コールバック関数を受け取る関数は次の関数です。
 
-オプションによって以下の関数もチェックします。
+- `Array.from`
+- `Array.prototype.every`
+- `Array.prototype.filter`
+- `Array.prototype.find`
+- `Array.prototype.findIndex`
+- `Array.prototype.findLast`
+- `Array.prototype.findLastIndex`
+- `Array.prototype.flatMap`
+- `Array.prototype.map`
+- `Array.prototype.reduce`
+- `Array.prototype.reduceRight`
+- `Array.prototype.some`
+- `Array.prototype.sort`
+- `Array.prototype.toSorted`
 
-- Array.prototype.forEach
+オプションによって以下の関数も検査します。
 
-値を返す関数は
-すべてのパスで値のある `return` 文がある関数
-波括弧の省略記法を使ったアロー関数
+- `Array.prototype.forEach`
 
-値を返さない関数は
-少なくとも一つのパスで値のない `return` 文がある関数
-少なくとも一つのパスで `return` 文がない関数
-
-## Options
-
-オプションは1つのオブジェクトを受け入れます。
+## オプション
 
 ```ts
-type Options = {
-  allowImplicit: boolean;
-  checkForEach: boolean;
-};
+type Options = [
+  {
+    allowImplicit?: boolean;
+    checkForEach?: boolean;
+    allowVoid?: boolean;
+  },
+];
 
-const OptionDefault = {
-  allowImplicit: false,
-  checkForEach: false,
-};
+const OptionDefault: Options = [
+  {
+    allowImplicit: false,
+    checkForEach: false,
+    allowVoid: false,
+  },
+];
 ```
 
 ### allowImplicit
 
-`true` に設定されているとき、値のない `return` 文による暗黙的な `undefined` を返すことを許可します。
+`true`に設定されているとき、値のない`return`文による暗黙的な`undefined`を返すことを許可します。
 
-#### 正しい例
+### checkForEach
+
+`true`に設定されているとき、`Array.prototype.forEach`の引数に渡すコールバック関数で値を返すことを禁止します。
+
+### allowVoid
+
+`true`に設定されているとき、`Array.prototype.forEach`の引数に渡すコールバック関数で`void`演算子の結果の値を返すことを許可します。
+
+## 正しい例
+
+```js
+/* eslint array-callback-return: ["error"] */
+
+array.map(function (item) {
+  return item * 2;
+});
+
+array.filter((item) => item < 5);
+```
 
 ```js
 /* eslint array-callback-return: ["error", { allowImplicit: true }] */
 
-new Array(5).map(function () {
+array.map(function (item) {
   return;
 });
 ```
 
-#### 間違いの例
+```js
+/* eslint array-callback-return: ["error", { checkForEach: true }] */
+
+array.forEach(function (item) {
+  doSomething(item);
+});
+```
+
+```js
+/* eslint array-callback-return: ["error", { checkForEach: true, allowVoid: true }] */
+
+array.forEach(function (item) {
+  return void doSomething(item);
+});
+```
+
+## 間違いの例
+
+```js
+/* eslint array-callback-return: ["error"] */
+
+array.map(function (item) {
+  doSomething(item);
+});
+```
 
 ```js
 /* eslint array-callback-return: ["error", { allowImplicit: true }] */
 
-new Array(5).map(function () {
-  // no return starement
+array.map(function () {
+  doSomething(item);
 });
 ```
 
-### checkForEach
+```js
+/* eslint array-callback-return: ["error", { checkForEach: true }] */
 
-`true` に設定されているとき、 `Array.prototype.forEach` のコールバック関数で値を返すものをチェックします。
+array.forEach(function (item) {
+  return item * 2;
+});
+```
 
-## configs
+```js
+/* eslint array-callback-return: ["error", { checkForEach: true, allowVoid: true }] */
+
+array.forEach(function (item) {
+  return doSomething(item);
+});
+```
+
+## コンフィグ
 
 以下の設定で使用されています。

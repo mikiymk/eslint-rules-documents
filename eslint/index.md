@@ -3,7 +3,7 @@
 - 🗃️ - オプションがある
 - ⚙️ - 自動で修正ができる
 - 💡 - 修正の提案ができる
-- 📝 - `recommended` のコンフィグで有効
+- 📝 - `recommended`のコンフィグで有効
 
 ## Possible Problems
 

@@ -13,6 +13,7 @@ eslint のルールを日本語でまとめたい
 | [eslint-plugin-unicorn](./eslint-plugin-unicorn) | 55.0.0     |          |  [📖](https://www.npmjs.com/package/eslint-plugin-unicorn/v/55.0.0)  | [🐙](https://github.com/sindresorhus/eslint-plugin-unicorn/tree/v55.0.0) |                                    |   ✅   |
 | [ESLint Stylistic](./eslint-stylistic)           | 2.6.4      |          | [📖](https://www.npmjs.com/package/@stylistic/eslint-plugin/v/2.6.4) |  [🐙](https://github.com/eslint-stylistic/eslint-stylistic/tree/v2.6.4)  |     [🔗](https://eslint.style)     |   ✅   |
 | [eslint-plugin-jsdoc](./eslint-plugin-jsdoc)     | 50.2.2     |          |   [📖](https://www.npmjs.com/package/eslint-plugin-jsdoc/v/50.2.2)   |     [🐙](https://github.com/gajus/eslint-plugin-jsdoc/tree/v50.2.2)      |                                    |   ✅   |
+| [eslint-plugin-import](./eslint-plugin-import)   | 2.29.1     |          |  [📖](https://www.npmjs.com/package/eslint-plugin-import/v/2.29.1)   |   [🐙](https://github.com/import-js/eslint-plugin-import/tree/v2.29.1)   |                                    |   ✅   |
 
 ## 共有コンフィグ
 
