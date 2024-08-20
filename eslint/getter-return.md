@@ -1,36 +1,76 @@
 # getter-return
 
-ゲッターの内部で値を返す `return` 文があることをチェックします。
+ゲッター関数で必ず値を返すことを要求します。
 
-- オブジェクトリテラル・クラス宣言・クラス式の `get` 構文
-- `Object.defineProperty` の `get` アクセサー記述子
-
-ゲッターは値を返すことが期待されます。
-
-## Options
-
-1つのオブジェクトオプションを受け入れます。
+## オプション
 
 ```ts
-type Options = {
-  allowImplicit: boolean;
-};
+type Options = [] | [
+ {
+  allowImplicit?: boolean;
+}
+ ];
 
-const Defaults = {
+const OptionDefault: Options = [{
   allowImplicit: false,
-};
+}];
 ```
 
 ### allowImplicit
 
-`true` の場合、値のない `return` 文が暗黙的な `undefined` を返すことを許可します。
+`true`に設定されているとき、値のない`return`文によって暗黙的な`undefined`を返すことを許可します。
 
-## Configs
+## 正しい例
 
-以下の設定で使用されています
+```js
+/* eslint getter-return: ["error"] */
 
-- `"eslint:recommended": "error"`
+let obj = {
+  get a() {
+    return 1;
+  }
+};
 
-## rules
+Object.defineProperty(obj, "b", {
+    get: function (){
+        return 2;
+    }
+});
 
-- https://eslint.org/docs/latest/rules/getter-return
+class C {
+    get c(){
+        return 3;
+    }
+}
+```
+
+```js
+/* eslint getter-return: ["error", { "allowImplicit": true }] */
+
+let obj = {
+  get d() {
+    return;
+  }
+};
+```
+
+## 間違いの例
+
+```js
+/* eslint getter-return: ["error"] */
+
+let obj = {
+  get e() {
+  }
+};
+```
+
+## コンフィグ
+
+以下の設定で使用されています。
+
+- eslint/recommended - `"error"`
+
+## リンク
+
+- [公式ドキュメント](https://eslint.org/docs/latest/rules/getter-return)
