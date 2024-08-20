@@ -48,3 +48,7 @@ for (let i = 0; i <= 10; i--) {
 以下の設定で使用されています。
 
 - eslint/recommended - `"error"`
+
+## リンク
+
+- [公式ドキュメント](https://eslint.org/docs/latest/rules/for-direction)
