@@ -52,4 +52,8 @@ constructor() { super(); super(); }
 
 以下の設定で使用されています。
 
-- eslint/recommended
+- eslint/recommended - `"error"`
+
+## リンク
+
+- [公式ドキュメント](https://eslint.org/docs/latest/rules/constructor-super)
