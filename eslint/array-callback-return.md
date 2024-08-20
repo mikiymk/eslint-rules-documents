@@ -128,3 +128,7 @@ array.forEach(function (item) {
 ## コンフィグ
 
 以下の設定で使用されています。
+
+## リンク
+
+- [公式ドキュメント](https://eslint.org/docs/latest/rules/array-callback-return)
