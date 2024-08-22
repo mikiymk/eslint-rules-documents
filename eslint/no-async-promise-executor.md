@@ -1,17 +1,54 @@
 # no-async-promise-executor
 
-`Promise` のコンストラクターの引数で非同期のコールバック関数を使用しないようにチェックします。
+`new Promise`コンストラクターの引数に渡す`executor`コールバック関数を`async`キーワードを使った非同期関数にすることを禁止します。
 
-## Options
+## オプション
 
-オプションを受け入れません。
+```ts
+type Options = [
+ ];
 
-## Configs
+const OptionDefault: Options = [];
+```
 
-以下の設定で使用されています
+## 正しい例
 
-- `"eslint:recommended": "error"`
+```js
+/* eslint no-async-promise-executor: ["error"] */
 
-## rules
+let p = new Promise(function (resolve, reject) {
+  asyncFunction(
+     function (data) {
+         resolve(data) }
+     ,
+     function (error) { reject ( error )}
+  )
+});
+```
 
-- https://eslint.org/docs/latest/rules/no-async-promise-executor
+
+
+## 間違いの例
+
+```js
+/* eslint no-async-promise-executor: ["error"] */
+
+let p = new Promise(async function (resolve, reject) {
+  await asyncFunction(
+     function (data) {
+         resolve(data) }
+     ,
+     function (error) { reject ( error )}
+  )
+});
+```
+
+## コンフィグ
+
+以下の設定で使用されています。
+
+- eslint/recommended - `"error"`
+
+## リンク
+
+- [公式ドキュメント](https://eslint.org/docs/latest/rules/no-async-promise-executor)
