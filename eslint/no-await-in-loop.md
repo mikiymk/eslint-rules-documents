@@ -1,15 +1,46 @@
 # no-await-in-loop
 
-ループ文 (`for` `while` `do-while`) の中で `await` 演算子を使用しないようにチェックします。
+ループの中で`await`演算子の使用を禁止します。
 
-## Options
+## オプション
 
-オプションを受け入れません。
+```ts
+type Options = [
+ ];
 
-## Configs
+const OptionDefault: Options = [];
+```
 
-以下の設定で使用されています
+## 正しい例
 
-## rules
+```js
+/* eslint no-await-in-loop: ["error"] */
 
-- https://eslint.org/docs/latest/rules/no-await-in-loop
+for (let i = 0; i < array.length; i++) {
+  const item = array[i]
+}
+
+for await (const item of promises) {
+  doSomething(item)
+}
+```
+
+
+
+## 間違いの例
+
+```js
+/* eslint no-await-in-loop: ["error"] */
+
+for (let i = 0; i < array.length; i++) {
+  const item = await array[i]
+}
+```
+
+## コンフィグ
+
+以下の設定で使用されています。
+
+## リンク
+
+- [公式ドキュメント](https://eslint.org/docs/latest/rules/no-await-in-loop)
