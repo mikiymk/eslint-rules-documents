@@ -58,7 +58,7 @@ const OptionDefault: Options = [
 ## 正しい例
 
 ```js
-/* eslint array-callback-return: ["error"] */
+/* eslint array-callback-return: "error" */
 
 array.map(function (item) {
   return item * 2;
@@ -94,7 +94,7 @@ array.forEach(function (item) {
 ## 間違いの例
 
 ```js
-/* eslint array-callback-return: ["error"] */
+/* eslint array-callback-return: "error" */
 
 array.map(function (item) {
   doSomething(item);

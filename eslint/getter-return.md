@@ -5,15 +5,19 @@
 ## オプション
 
 ```ts
-type Options = [] | [
- {
-  allowImplicit?: boolean;
-}
- ];
+type Options =
+  | []
+  | [
+      {
+        allowImplicit?: boolean;
+      },
+    ];
 
-const OptionDefault: Options = [{
-  allowImplicit: false,
-}];
+const OptionDefault: Options = [
+  {
+    allowImplicit: false,
+  },
+];
 ```
 
 ### allowImplicit
@@ -23,24 +27,24 @@ const OptionDefault: Options = [{
 ## 正しい例
 
 ```js
-/* eslint getter-return: ["error"] */
+/* eslint getter-return: "error" */
 
 let obj = {
   get a() {
     return 1;
-  }
+  },
 };
 
 Object.defineProperty(obj, "b", {
-    get: function (){
-        return 2;
-    }
+  get: function () {
+    return 2;
+  },
 });
 
 class C {
-    get c(){
-        return 3;
-    }
+  get c() {
+    return 3;
+  }
 }
 ```
 
@@ -50,18 +54,17 @@ class C {
 let obj = {
   get d() {
     return;
-  }
+  },
 };
 ```
 
 ## 間違いの例
 
 ```js
-/* eslint getter-return: ["error"] */
+/* eslint getter-return: "error" */
 
 let obj = {
-  get e() {
-  }
+  get e() {},
 };
 ```
 

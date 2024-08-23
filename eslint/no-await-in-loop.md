@@ -5,8 +5,7 @@
 ## オプション
 
 ```ts
-type Options = [
- ];
+type Options = [];
 
 const OptionDefault: Options = [];
 ```
@@ -14,26 +13,24 @@ const OptionDefault: Options = [];
 ## 正しい例
 
 ```js
-/* eslint no-await-in-loop: ["error"] */
+/* eslint no-await-in-loop: "error" */
 
 for (let i = 0; i < array.length; i++) {
-  const item = array[i]
+  const item = array[i];
 }
 
 for await (const item of promises) {
-  doSomething(item)
+  doSomething(item);
 }
 ```
-
-
 
 ## 間違いの例
 
 ```js
-/* eslint no-await-in-loop: ["error"] */
+/* eslint no-await-in-loop: "error" */
 
 for (let i = 0; i < array.length; i++) {
-  const item = await array[i]
+  const item = await array[i];
 }
 ```
 

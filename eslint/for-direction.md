@@ -18,7 +18,7 @@ const OptionDefault: Options = [];
 ## 正しい例
 
 ```js
-/* eslint for-direction: ["error"] */
+/* eslint for-direction: "error" */
 
 for (let i = 0; i < 10; i++) {
   doSomething(i);
@@ -32,7 +32,7 @@ for (let i = 10; i >= 0; i--) {
 ## 間違いの例
 
 ```js
-/* eslint for-direction: ["error"] */
+/* eslint for-direction: "error" */
 
 for (let i = 0; i > 10; i++) {
   doSomething(i);

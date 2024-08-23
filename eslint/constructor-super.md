@@ -19,32 +19,39 @@ const OptionDefault: Options = [];
 ## 正しい例
 
 ```js
-/* eslint constructor-super: ["error"] */
+/* eslint constructor-super: "error" */
 
 class A {
-constructor() { }
+  constructor() {}
 }
 
 class B extends A {
-constructor() { super() ; }
+  constructor() {
+    super();
+  }
 }
 ```
 
 ## 間違いの例
 
 ```js
-/* eslint constructor-super: ["error"] */
+/* eslint constructor-super: "error" */
 
 class A {
-constructor() { super(); }
+  constructor() {
+    super();
+  }
 }
 
 class B extends A {
-constructor() { }
+  constructor() {}
 }
 
 class C extends A {
-constructor() { super(); super(); }
+  constructor() {
+    super();
+    super();
+  }
 }
 ```
 

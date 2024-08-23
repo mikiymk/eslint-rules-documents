@@ -5,8 +5,7 @@
 ## オプション
 
 ```ts
-type Options = [
- ];
+type Options = [];
 
 const OptionDefault: Options = [];
 ```
@@ -14,32 +13,34 @@ const OptionDefault: Options = [];
 ## 正しい例
 
 ```js
-/* eslint no-async-promise-executor: ["error"] */
+/* eslint no-async-promise-executor: "error" */
 
 let p = new Promise(function (resolve, reject) {
   asyncFunction(
-     function (data) {
-         resolve(data) }
-     ,
-     function (error) { reject ( error )}
-  )
+    function (data) {
+      resolve(data);
+    },
+    function (error) {
+      reject(error);
+    },
+  );
 });
 ```
-
-
 
 ## 間違いの例
 
 ```js
-/* eslint no-async-promise-executor: ["error"] */
+/* eslint no-async-promise-executor: "error" */
 
 let p = new Promise(async function (resolve, reject) {
   await asyncFunction(
-     function (data) {
-         resolve(data) }
-     ,
-     function (error) { reject ( error )}
-  )
+    function (data) {
+      resolve(data);
+    },
+    function (error) {
+      reject(error);
+    },
+  );
 });
 ```
 
