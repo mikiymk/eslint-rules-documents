@@ -1,17 +1,53 @@
 # no-class-assign
 
-クラス宣言をした識別子に代入をしないようにチェックします。
+`class`宣言で宣言した識別子に再代入をすることを禁止します。
 
-## Options
+## オプション
 
-オプションを受け入れません。
+```ts
+type Options = [];
 
-## Configs
+const OptionDefault: Options = [];
+```
 
-以下の設定で使用されています
+## 正しい例
 
-- `"eslint:recommended": "error"`
+```js
+/* eslint no-class-assign: ["error"] */
 
-## rules
+class A {
+  a() {
+    let A = 0;
+  }
+}
 
-- https://eslint.org/docs/latest/rules/no-class-assign
+let B = class { }
+B = 0;
+```
+
+
+
+## 間違いの例
+
+```js
+/* eslint no-class-assign: ["error"] */
+
+class A {
+  a() {
+    A = 0;
+  }
+}
+
+let B = class B { }
+B = 0;
+```
+
+## コンフィグ
+
+以下の設定で使用されています。
+
+- eslint/recommended - `"error"`
+
+## リンク
+
+- [公式ドキュメント](https://eslint.org/docs/latest/rules/no-class-assign)
