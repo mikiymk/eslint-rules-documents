@@ -1,20 +1,43 @@
 # no-compare-neg-zero
 
-負のゼロの比較演算をしないようにチェックします。
+`-0`と比較することを禁止します。
 
-`+0` と `-0` は別の数値ですが、 `+0 === -0` は `true` になります。
-代わりに `Object.is` を使用してください。
+## オプション
 
-## Options
+```ts
+type Options = [];
 
-オプションを受け入れません。
+const OptionDefault: Options = [];
+```
 
-## Configs
+## 正しい例
 
-以下の設定で使用されています
+```js
+/* eslint no-compare-neg-zero: ["error"] */
 
-- `"eslint:recommended": "error"`
+x == 0;
+x !== 0;
+x < -1;
+```
 
-## rules
 
-- https://eslint.org/docs/latest/rules/no-compare-neg-zero
+
+## 間違いの例
+
+```js
+/* eslint no-compare-neg-zero: ["error"] */
+
+x == -0;
+x !== -0;
+x > -0;
+```
+
+## コンフィグ
+
+以下の設定で使用されています。
+
+- eslint/recommended - `"error"`
+
+## リンク
+
+- [公式ドキュメント](https://eslint.org/docs/latest/rules/no-compare-neg-zero)
